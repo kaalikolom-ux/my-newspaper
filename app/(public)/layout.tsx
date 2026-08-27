@@ -4,6 +4,8 @@ import TrendingBar from '@/components/public/TrendingBar';
 import Header from '@/components/public/Header';
 import Footer from '@/components/public/Footer';
 
+export const runtime = 'edge';
+
 export default async function PublicLayout({
   children,
 }: {

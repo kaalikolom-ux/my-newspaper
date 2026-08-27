@@ -2,6 +2,8 @@ import React from 'react';
 import AdminSidebar from '@/components/admin/AdminSidebar';
 import AdminHeader from '@/components/admin/AdminHeader';
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'WordPress-like CMS Admin Dashboard | The Daily Chronicle',
 };

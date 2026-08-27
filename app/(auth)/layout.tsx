@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { Newspaper } from 'lucide-react';
 
+export const runtime = 'edge';
+
 export default function AuthLayout({
   children,
 }: {
