@@ -1,10 +1,11 @@
 {
-  "name": "modern-newspaper-cms",
+  "name": "my-newspaper",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx @cloudflare/next-on-pages",
+    "build:next": "next build",
     "start": "next start",
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages",
