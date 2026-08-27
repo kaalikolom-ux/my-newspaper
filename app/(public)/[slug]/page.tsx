@@ -6,6 +6,8 @@ import { ArrowLeft, FileText } from 'lucide-react';
 import { getPageBySlug, getPopularPosts } from '@/lib/data';
 import SidebarWidgets from '@/components/public/SidebarWidgets';
 
+export const runtime = 'edge';
+
 interface PageProps {
   params: {
     slug: string;

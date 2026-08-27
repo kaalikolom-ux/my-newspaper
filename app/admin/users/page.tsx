@@ -6,6 +6,8 @@ import { Users, UserPlus, Shield, ShieldCheck, UserCheck, ExternalLink, CheckCir
 import { MOCK_AUTHORS } from '@/lib/mock-data';
 import { Profile, UserRole } from '@/lib/types';
 
+export const runtime = 'edge';
+
 const INITIAL_USERS: Profile[] = [
   ...MOCK_AUTHORS,
   {

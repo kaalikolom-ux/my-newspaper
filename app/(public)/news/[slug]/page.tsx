@@ -9,6 +9,8 @@ import SocialShare from '@/components/public/SocialShare';
 import SidebarWidgets from '@/components/public/SidebarWidgets';
 import TurnstileWidget from '@/components/public/TurnstileWidget';
 
+export const runtime = 'edge';
+
 interface PageProps {
   params: {
     slug: string;

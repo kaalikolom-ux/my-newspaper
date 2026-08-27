@@ -17,6 +17,8 @@ import {
 import { MOCK_CATEGORIES, MOCK_POSTS } from '@/lib/mock-data';
 import { formatDate } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default function AdminPostsListPage() {
   const [posts, setPosts] = useState(MOCK_POSTS);
   const [selectedCategory, setSelectedCategory] = useState('all');

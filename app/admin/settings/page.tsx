@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { Save, CheckCircle2, Globe, Shield, Sliders, Link2, Sparkles } from 'lucide-react';
 import { MOCK_SITE_SETTINGS } from '@/lib/mock-data';
 
+export const runtime = 'edge';
+
 export default function AdminSettingsPage() {
   const [settings, setSettings] = useState(MOCK_SITE_SETTINGS);
   const [saving, setSaving] = useState(false);

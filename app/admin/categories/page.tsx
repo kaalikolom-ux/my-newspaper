@@ -7,6 +7,8 @@ import { MOCK_CATEGORIES } from '@/lib/mock-data';
 import { Category } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default function AdminCategoriesPage() {
   const [categories, setCategories] = useState<Category[]>(MOCK_CATEGORIES);
   const [name, setName] = useState('');

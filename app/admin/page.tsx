@@ -15,6 +15,8 @@ import {
 import { getAuthors, getCategories, getPosts } from '@/lib/data';
 import { formatDate } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default async function AdminDashboardPage() {
   const [posts, categories, authors] = await Promise.all([
     getPosts({ limit: 10 }),

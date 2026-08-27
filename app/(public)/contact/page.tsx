@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { Mail, MapPin, Phone, Send, CheckCircle2, AlertCircle, ArrowLeft, ShieldCheck, Newspaper } from 'lucide-react';
 import TurnstileWidget from '@/components/public/TurnstileWidget';
 
+export const runtime = 'edge';
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',

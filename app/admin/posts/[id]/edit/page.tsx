@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { getAuthors, getCategories, getPosts } from '@/lib/data';
 import PostEditor from '@/components/admin/PostEditor';
 
+export const runtime = 'edge';
+
 interface EditPageProps {
   params: {
     id: string;

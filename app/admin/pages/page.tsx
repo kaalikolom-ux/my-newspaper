@@ -7,6 +7,8 @@ import { MOCK_PAGES } from '@/lib/mock-data';
 import { PageItem } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default function AdminPagesManagerPage() {
   const [pages, setPages] = useState<PageItem[]>(MOCK_PAGES);
   const [isCreating, setIsCreating] = useState(false);

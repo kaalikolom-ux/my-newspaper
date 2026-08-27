@@ -3,6 +3,7 @@ import { getAuthors, getCategories, getPopularPosts, getPosts } from '@/lib/data
 import HeroGrid from '@/components/public/HeroGrid';
 import CategorySection from '@/components/public/CategorySection';
 import SidebarWidgets from '@/components/public/SidebarWidgets';
+export const runtime = 'edge';
 
 export default async function HomePage() {
   const [allPosts, categories, popularPosts, authors] = await Promise.all([

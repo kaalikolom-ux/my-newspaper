@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { verifyTurnstileToken } from '@/lib/turnstile';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();

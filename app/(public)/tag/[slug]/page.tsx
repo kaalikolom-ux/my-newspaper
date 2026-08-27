@@ -7,6 +7,8 @@ import { getPopularPosts, getPosts } from '@/lib/data';
 import { formatDate } from '@/lib/utils';
 import SidebarWidgets from '@/components/public/SidebarWidgets';
 
+export const runtime = 'edge';
+
 interface TagPageProps {
   params: {
     slug: string;

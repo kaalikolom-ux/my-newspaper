@@ -7,6 +7,8 @@ import { getAuthorByUsername, getPopularPosts, getPosts } from '@/lib/data';
 import { formatDate } from '@/lib/utils';
 import SidebarWidgets from '@/components/public/SidebarWidgets';
 
+export const runtime = 'edge';
+
 interface AuthorPageProps {
   params: {
     username: string;

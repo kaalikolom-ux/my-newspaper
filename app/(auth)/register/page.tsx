@@ -7,6 +7,8 @@ import { Lock, Mail, User, ArrowRight } from 'lucide-react';
 import { createClient } from '@/lib/supabase/client';
 import TurnstileWidget from '@/components/public/TurnstileWidget';
 
+export const runtime = 'edge';
+
 export default function RegisterPage() {
   const router = useRouter();
   const [fullName, setFullName] = useState('');
